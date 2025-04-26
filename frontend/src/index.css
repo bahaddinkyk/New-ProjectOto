@@ -1,0 +1,106 @@
+/* Temel Sıfırlama ve Varsayılan Stiller */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth; /* Smooth scroll */
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Açık gri arkaplan */
+  }
+  
+  /* Başlık Stilleri */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    color: #2c3e50; /* Koyu mavi-gri renk */
+  }
+  
+  /* Link Stilleri */
+  a {
+    color: #3498db; /* Mavi tonu */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #2980b9; /* Koyu mavi */
+  }
+  
+  /* Container Stili */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Responsive Görüntüler */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Form Elementleri */
+  input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Renk Değişkenleri (Custom Properties) */
+  :root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --danger-color: #e74c3c;
+    --text-color: #2c3e50;
+  }
+  
+  /* Utility Class'ları */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  /* Responsive Tasarım için Media Query'ler */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  }

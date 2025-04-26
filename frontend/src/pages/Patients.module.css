@@ -1,0 +1,37 @@
+.error-message {
+    padding: 20px;
+    background: #ffe3e3;
+    border: 1px solid #ff8787;
+    border-radius: 4px;
+    color: #c92a2a;
+    text-align: center;
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+    padding: 8px 12px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .pagination button {
+    padding: 6px 12px;
+    background: #4dabf7;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background: #adb5bd;
+    cursor: not-allowed;
+  }

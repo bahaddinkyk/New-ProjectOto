@@ -1,0 +1,20 @@
+
+{
+  "welcome": "Welcome!",
+  "login": "Login",
+  "currentDate": "Today: {{date, MMMM dd, yyyy}}",
+  "patient_list": "Patient List",
+  "name": "Name",
+  "diagnosis": "Diagnosis",
+  "date": "Date",
+  "loading": "Loading",
+  "error": "Error",
+  "fetch_error": "Failed to fetch data",
+  "retry": "Retry",
+  "search_placeholder": "Search by name...",
+  "previous": "Previous",
+  "next": "Next",
+  "add_patient": "Add Patient",
+  "name_placeholder": "Enter name...",
+  "diagnosis_placeholder": "Enter diagnosis..."
+}

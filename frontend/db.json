@@ -1,0 +1,16 @@
+{
+    "patients": [
+      {
+        "id": 1,
+        "name": "Ahmet Yılmaz",
+        "diagnosis": "Romatoid Artrit",
+        "date": "2025-04-25"
+      },
+      {
+        "id": 2,
+        "name": "Ayşe Demir",
+        "diagnosis": "Hashimoto Tiroiditi",
+        "date": "2025-04-26"
+      }
+    ]
+  }

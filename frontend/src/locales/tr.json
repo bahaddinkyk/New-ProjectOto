@@ -1,0 +1,18 @@
+
+{
+    "welcome": "Hoş Geldiniz!",
+    "login": "Giriş Yap",
+    "currentDate": "Bugün: {{date, dd MMMM yyyy}}",
+    "patient_list": "Hasta Listesi",
+    "name": "Ad",
+    "diagnosis": "Teşhis",
+    "date": "Tarih",
+    "loading": "Yükleniyor",
+    "error": "Hata",
+    "fetch_error": "Veri alınamadı",
+    "retry": "Tekrar Dene",
+    "search_placeholder": "İsimle ara...",
+    "previous": "Önceki",
+    "next": "Sonraki"
+    
+  }
